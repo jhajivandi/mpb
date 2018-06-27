@@ -38,7 +38,7 @@
 (define-param extra-bands 5) ; number of extra bands to compute above the gap
 (set! num-bands (+ supercell-y extra-bands))
 
-(set-param! resolution 32)
+(set-param! resolution 50)
 
 ; Compute the TM modes, outputting the Ez field in the *middle* of the
 ; band.  (In general, the guided mode in such an air defect may have
